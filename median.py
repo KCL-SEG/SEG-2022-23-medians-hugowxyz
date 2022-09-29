@@ -11,5 +11,10 @@ while True:
         break
 
 numbers.sort()
-i = (len(numbers) - 1) // 2
-print(numbers[i] if len(numbers) % 2 == 0 else (numbers[i] + numbers[i+1])/2)
+n = len(numbers)
+m = n // 2
+
+if n % 2 == 1:
+    print(numbers[m])
+else:
+    print((numbers[m] + numbers[m+1]) / 2)
