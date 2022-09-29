@@ -17,4 +17,4 @@ m = n // 2
 if n % 2 == 1:
     print(numbers[m])
 else:
-    print((numbers[m] + numbers[m+1]) / 2)
+    print((numbers[m] + numbers[m-1]) / 2)
